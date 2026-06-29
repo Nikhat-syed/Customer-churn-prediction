@@ -1,4 +1,5 @@
 import os
+# pyrefly: ignore [missing-import]
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
@@ -16,10 +17,9 @@ class Settings(BaseSettings):
         "http://localhost:3000,http://localhost:5173,http://127.0.0.1:3000,http://127.0.0.1:5173"
     )
     
-    # DB configuration: Default to local SQLite fallback if Postgres is not set or ready
     DATABASE_URL: str = os.getenv(
         "DATABASE_URL", 
-        f"sqlite:///{os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'churn.db')}"
+        f"sqlite:///{os.path.join(os.path.dirname(os.path.dirname(__file__)), 'churn.db')}"
     )
 
     model_config = SettingsConfigDict(case_sensitive=True)
