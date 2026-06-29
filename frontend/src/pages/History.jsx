@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { Search, Filter, AlertTriangle, CheckCircle2, ChevronRight, X, Download, Trash2 } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8000/api/v1';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api/v1';
 
 const History = () => {
   const { token } = useAuth();

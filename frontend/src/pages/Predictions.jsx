@@ -5,7 +5,7 @@ import { Upload, FileText, CheckCircle2, AlertCircle, Download, RefreshCw, Searc
 import { downloadCSVReport, downloadExcelReport, downloadPDFReport } from '../utils/reportExporter';
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, Legend, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 
-const API_BASE = 'http://127.0.0.1:8000/api/v1';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api/v1';
 
 const Predictions = ({ defaultTab = 'single' }) => {
   const { token } = useAuth();

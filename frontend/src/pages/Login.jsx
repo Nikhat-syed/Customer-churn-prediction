@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { Cpu, Mail, Lock, User, AlertCircle, CheckCircle2, KeyRound, ShieldAlert } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8000/api/v1';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api/v1';
 
 const Login = () => {
   const { login, register, loginWithGoogle, error: authError } = useAuth();
