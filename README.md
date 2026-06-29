@@ -158,9 +158,8 @@ Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
 
 ## 🐳 Deployment Guide
 
-Deploy using the vercel deployement at the root directory:
-https://customer-churn-prediction-lyart.vercel.app/
-
+Deploy using the deployement at the root directory:
+**[http://localhost:5173/](http://localhost:5173/)**
 
 ---
 
