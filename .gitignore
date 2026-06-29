@@ -1,0 +1,22 @@
+# Python exclusions
+__pycache__/
+*.pyc
+venv/
+.env
+.pytest_cache/
+test_api.db
+test_api.db-journal
+
+# Node exclusions
+node_modules/
+dist/
+.DS_Store
+
+# SQLite databases
+*.db
+*.db-journal
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db

@@ -1,0 +1,51 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+8270-DDDD24,Female,0,Yes,Yes,11,Yes,No,DSL,No,No,Yes,Yes,No,Yes,Month-to-month,No,Mailed check,80.25,882.75,No
+9666-CCCC51,Male,0,No,Yes,12,Yes,No,DSL,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,82.31,987.72,Yes
+8099-CCCC53,Female,0,Yes,No,8,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),70.88,567.04,Yes
+2016-BBBB49,Female,0,No,No,24,Yes,Yes,DSL,Yes,Yes,No,No,Yes,Yes,One year,No,Electronic check,96.06,2305.44,No
+7184-DDDD16,Female,0,No,Yes,5,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,39.72,198.6,No
+2028-BBBB23,Female,0,Yes,No,13,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),102.9,1337.7,Yes
+3693-DDDD37,Male,0,No,No,7,No,No phone service,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,56.2,393.4,Yes
+2998-CCCC41,Male,0,No,No,35,Yes,No,Fiber optic,No,No,Yes,No,No,No,Two year,No,Bank transfer (automatic),91.81,3213.35,No
+6791-BBBB41,Female,0,Yes,No,6,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),92.2,553.2,No
+9338-DDDD80,Male,1,No,No,24,Yes,Yes,DSL,No,Yes,No,No,Yes,Yes,Two year,Yes,Electronic check,85.93,2062.32,No
+4108-DDDD18,Female,0,No,No,56,Yes,No,DSL,Yes,Yes,No,No,Yes,No,Two year,Yes,Mailed check,79.86,4472.16,No
+1956-AAAA42,Male,0,Yes,Yes,8,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),99.34,794.72,Yes
+8022-DDDD78,Male,0,Yes,No,40,No,No phone service,Fiber optic,No,Yes,Yes,Yes,No,Yes,Two year,Yes,Credit card (automatic),103.53,4141.2,No
+1980-DDDD96,Female,0,No,No,3,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,Yes,Month-to-month,No,Credit card (automatic),115.53,346.59,Yes
+1537-CCCC59,Female,0,No,No,13,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,100.43,1305.59,Yes
+7457-BBBB95,Female,0,No,No,5,Yes,Yes,DSL,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,89.7,448.5,Yes
+5752-DDDD72,Female,0,Yes,Yes,9,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),30.49,274.41,No
+8404-AAAA10,Male,0,No,No,34,Yes,No,DSL,No,No,No,No,No,Yes,One year,Yes,Credit card (automatic),65.98,2243.32,No
+8421-BBBB32,Male,0,Yes,No,10,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),31.16,311.6,No
+7303-CCCC93,Male,0,Yes,No,11,No,No phone service,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),83.37,917.07,No
+7748-BBBB83,Male,0,Yes,Yes,13,No,No phone service,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,No,Credit card (automatic),73.72,958.36,No
+7806-BBBB46,Male,0,Yes,No,17,Yes,No,Fiber optic,No,No,No,Yes,Yes,No,Month-to-month,No,Bank transfer (automatic),104.51,1776.67,No
+6486-DDDD78,Female,0,No,No,46,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,30.5,1403.0,No
+6334-AAAA84,Male,1,Yes,No,17,Yes,Yes,DSL,Yes,Yes,No,No,Yes,No,One year,Yes,Credit card (automatic),82.37,1400.29,No
+2324-DDDD45,Male,0,Yes,No,21,No,No phone service,DSL,No,No,No,No,No,No,One year,No,Electronic check,51.81,1088.01,Yes
+1504-CCCC34,Male,0,Yes,No,13,Yes,Yes,Fiber optic,Yes,No,No,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),124.96,1624.48,No
+4330-DDDD96,Female,1,No,No,35,Yes,No,DSL,No,No,No,No,No,No,Two year,Yes,Bank transfer (automatic),60.36,2112.6,No
+8891-AAAA38,Female,1,Yes,No,5,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,26.65,133.25,Yes
+3193-DDDD58,Female,0,Yes,No,36,Yes,No,DSL,No,No,Yes,No,Yes,Yes,Two year,Yes,Electronic check,89.45,3220.2,No
+8245-AAAA10,Female,0,No,Yes,13,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,One year,No,Electronic check,115.9,1506.7,No
+2252-AAAA23,Male,0,Yes,Yes,6,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,109.5,657.0,Yes
+7327-AAAA83,Female,0,No,Yes,13,Yes,Yes,DSL,No,No,No,No,No,Yes,One year,Yes,Credit card (automatic),74.12,963.56,No
+1666-AAAA41,Male,0,Yes,Yes,10,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,71.88,718.8,Yes
+3878-DDDD70,Female,0,Yes,Yes,31,Yes,No,Fiber optic,No,No,No,Yes,No,No,One year,No,Bank transfer (automatic),93.44,2896.64,No
+2531-AAAA27,Male,0,Yes,Yes,5,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,26.2,131.0,No
+7168-DDDD19,Female,0,No,Yes,2,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,87.37,174.74,Yes
+2733-BBBB13,Male,0,No,No,9,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),117.23,1055.07,No
+5289-CCCC84,Male,0,Yes,No,4,Yes,No,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,63.69,254.76,Yes
+1260-CCCC19,Male,0,No,No,5,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,No,Bank transfer (automatic),109.38,546.9,Yes
+3560-DDDD73,Male,0,Yes,Yes,37,Yes,Yes,DSL,No,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),93.77,3469.49,No
+7565-AAAA32,Female,0,Yes,No,2,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),112.41,224.82,Yes
+3204-BBBB66,Female,0,Yes,No,2,Yes,Yes,Fiber optic,Yes,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),109.09,218.18,Yes
+1094-CCCC45,Male,0,Yes,No,10,Yes,No,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),99.32,993.2,Yes
+4876-DDDD40,Male,0,Yes,No,45,No,No phone service,DSL,No,No,No,Yes,No,No,Two year,Yes,Bank transfer (automatic),53.99,2429.55,Yes
+9393-DDDD66,Female,0,Yes,No,11,No,No phone service,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),89.19,981.09,No
+7320-AAAA72,Female,0,No,Yes,17,No,No phone service,DSL,No,No,Yes,No,Yes,No,Month-to-month,No,Bank transfer (automatic),68.0,1156.0,Yes
+3717-AAAA58,Female,0,No,No,14,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,87.71,1227.94,Yes
+4451-AAAA96,Female,0,No,No,3,Yes,Yes,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,71.03,213.09,No
+5547-DDDD46,Male,0,Yes,No,10,Yes,No,DSL,No,No,No,Yes,Yes,No,Month-to-month,Yes,Mailed check,73.63,736.3,Yes
+2555-AAAA46,Male,0,Yes,No,12,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),107.18,1286.16,Yes
