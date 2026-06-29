@@ -15,8 +15,7 @@ An end-to-end, explainable machine learning platform and full-stack SaaS applica
 8. [API Documentation](#api-documentation)
 9. [Installation Guide](#installation-guide)
 10. [Deployment Guide](#deployment-guide)
-11. [Portfolio Screenshots](#portfolio-screenshots)
-12. [Future Enhancements](#future-enhancements)
+11. [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -159,24 +158,9 @@ Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
 
 ## 🐳 Deployment Guide
 
-Deploy using the multi-container Docker Compose setup at the root directory:
+Deploy using the vercel deployement at the root directory:
+https://customer-churn-prediction-lyart.vercel.app/
 
-```bash
-# Build and run containers
-docker-compose up --build -d
-```
-*   **Client Port**: `http://localhost:80` (NGINX SPA reverse proxy)
-*   **API Port**: `http://localhost:8000/docs`
-
----
-
-## 📸 Portfolio Screenshots
-
-*Note: Visual layouts and dashboard screenshots can be found in the workspace artifacts path:*
-1.  **Glassmorphic KPI Dashboard**: [Dashboard Snapshot](file:///C:/Users/Dell/.gemini/antigravity-ide/brain/bf170dea-da9d-4195-955d-b2e71417ab6e/dashboard_view.png)
-2.  **SHAP Simulator Sandbox**: [Simulation Sandbox](file:///C:/Users/Dell/.gemini/antigravity-ide/brain/bf170dea-da9d-4195-955d-b2e71417ab6e/prediction_view.png)
-3.  **Analytics Timelines Hub**: [Recharts Visual Insights](file:///C:/Users/Dell/.gemini/antigravity-ide/brain/bf170dea-da9d-4195-955d-b2e71417ab6e/analytics_view.png)
-4.  **Model Diagnostics Center**: [Metrics Matrix Comparison](file:///C:/Users/Dell/.gemini/antigravity-ide/brain/bf170dea-da9d-4195-955d-b2e71417ab6e/performance_view.png)
 
 ---
 
