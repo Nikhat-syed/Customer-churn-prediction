@@ -2,24 +2,28 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from app.config import settings
 
+db_url = settings.DATABASE_URL
+if db_url.startswith("postgres://"):
+    db_url = db_url.replace("postgres://", "postgresql://", 1)
+
 # Engine configuration with resilient fallback
 try:
     # If using postgresql, we can add pool settings. SQLite doesn't support them.
-    if settings.DATABASE_URL.startswith("postgresql"):
+    if db_url.startswith("postgresql"):
         engine = create_engine(
-            settings.DATABASE_URL,
+            db_url,
             pool_pre_ping=True,
             pool_recycle=3600
         )
     else:
         # SQLite needs connect_args for multithreading
         engine = create_engine(
-            settings.DATABASE_URL,
+            db_url,
             connect_args={"check_same_thread": False}
         )
     # Test connection
     with engine.connect() as conn:
-        print(f"Database connection successful using URL: {settings.DATABASE_URL.split('@')[-1] if '@' in settings.DATABASE_URL else settings.DATABASE_URL}")
+        print(f"Database connection successful using URL: {db_url.split('@')[-1] if '@' in db_url else db_url}")
 except Exception as e:
     print(f"Database connection failed with error: {e}")
     # Fallback to local SQLite database if connection failed
